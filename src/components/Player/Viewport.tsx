@@ -32,11 +32,11 @@ export default function Viewport({ scene }: Props) {
     }, [scene]);
     return (
         <div
-            className="relative flex-1 bg-cover bg-center text-white flex flex-col justify-end"
+            className="relative flex-1 bg-cover bg-center text-white flex flex-col justify-center"
             style={{ backgroundImage: `url(${bg})` }}
         >
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
-            <div className="relative p-4 space-y-2">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+            <div className="relative max-w-2xl mx-auto p-6 space-y-2">
                 <div className="font-semibold">{scene.speaker}</div>
                 <div className="whitespace-pre-wrap">{scene.text}</div>
             </div>
