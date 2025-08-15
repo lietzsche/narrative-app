@@ -31,8 +31,9 @@ export default function PlayPage() {
     return (
         <div className="flex flex-col h-screen bg-gray-50 text-gray-900">
             <ProgressBar />
-            <Viewport scene={currentScene} />
-            <ChoiceList scene={currentScene} />
+            <Viewport scene={currentScene}>
+                <ChoiceList scene={currentScene} />
+            </Viewport>
         </div>
     );
 }
