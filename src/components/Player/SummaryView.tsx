@@ -13,8 +13,8 @@ export default function SummaryView() {
         session.startSession();
     };
     return (
-        <div className="p-4 space-y-4">
-            <h2 className="text-xl font-bold">Summary</h2>
+        <div className="p-4 space-y-4 max-w-md mx-auto">
+            <h2 className="text-xl font-bold text-center">Summary</h2>
             <ul className="space-y-2">
                 {session.path.map((p, i) => (
                     <li key={i} className="border-b pb-2">
@@ -24,15 +24,18 @@ export default function SummaryView() {
                     </li>
                 ))}
             </ul>
-            <div className="flex gap-2">
-                <button className="px-3 py-1 bg-blue-600 text-white rounded" onClick={() => exportSessionJSON(version)}>
+            <div className="flex flex-col sm:flex-row gap-2">
+                <button
+                    className="flex-1 px-3 py-1 bg-blue-600 text-white rounded"
+                    onClick={() => exportSessionJSON(version)}
+                >
                     Download JSON
                 </button>
-                <button className="px-3 py-1 bg-gray-300 rounded" onClick={copy}>
+                <button className="flex-1 px-3 py-1 bg-gray-300 rounded" onClick={copy}>
                     Copy Text
                 </button>
             </div>
-            <button className="px-3 py-1 bg-green-600 text-white rounded" onClick={restart}>
+            <button className="w-full px-3 py-1 bg-green-600 text-white rounded" onClick={restart}>
                 Restart
             </button>
         </div>
