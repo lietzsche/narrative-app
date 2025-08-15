@@ -21,12 +21,13 @@ export default function ChoiceList({ scene }: Props) {
     }, [scene, choose]);
 
     return (
-        <div className="w-full p-4 space-y-2 bg-white/80 backdrop-blur-sm max-h-[40vh] overflow-y-auto rounded-md">
+        <div className="w-full p-4 space-y-2 max-h-[40vh] overflow-y-auto">
             {scene.choiceRequests.map((c, i) => (
                 <button
                     key={i}
                     onClick={() => choose(c)}
-                    className="w-full px-4 py-2 bg-gray-100 rounded hover:bg-gray-200 text-left transition focus-visible:outline-blue-500"
+                    className="w-full px-4 py-2 rounded-lg text-white bg-white/10 backdrop-blur-sm
+                    hover:bg-white/20 transition duration-200 focus-visible:outline-none"
                 >
                     {i + 1}. {c.text}
                 </button>
