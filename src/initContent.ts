@@ -8,7 +8,12 @@ export async function initContent() {
     localStorage.removeItem('content-store');
 
     try {
-        const resp = await fetch('/content.json');
+        const url = `${import.meta.env.BASE_URL}content.json`; // ✅ '/narrative-app/content.json'
+        console.log('[initContent] fetching:', url);            // 디버그용
+        const resp = await fetch(url, { cache: 'no-store' });
+        if (!resp.ok) {
+            throw new Error(`HTTP ${resp.status} @ ${resp.url}`);
+        }
         const scenes = await resp.json();
         useContentStore.getState().publish(scenes, 'default');
     } catch (e) {
