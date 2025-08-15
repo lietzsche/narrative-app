@@ -1,27 +1,27 @@
 [
   {
     "sceneId": "s1",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background1.png",
-    "text": "지금 마음속에서 가장 안온하고 편안한 비밀 아지트를 떠올려보세요. 그곳의 인테리어, BGM, 향까지 상상해보는 거예요!",
+    "text": "화려한 무대가 눈앞에 펼쳐집니다! 당신은 오늘의 '마음 어드벤처' 리얼리티 쇼의 주인공. 카메라가 돌아가는 가운데, 비밀 아지트를 꾸미고 첫 미션을 준비해 보세요. 관객들은 어떤 모습을 좋아할까요?",
     "start": true,
     "end": false,
     "choiceRequests": [
       {
-        "text": "인스타 감성으로 세부 묘사해본다",
+        "text": "디테일하게 꾸미고 BGM까지 선택한다",
         "nextSceneId": "s2"
       },
       {
-        "text": "대충 스케치하고 넘어간다",
+        "text": "즉흥적으로 분위기를 결정한다",
         "nextSceneId": "s3"
       }
     ]
   },
   {
     "sceneId": "s2",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "mountain.jpg",
-    "text": "그 공간에서 가장 먼저 떠오른 기분은 뭐예요? 푹신한 소파처럼 편안한지, 두근두근 설레는지, 아니면 살짝 시원섭섭한지?",
+    "text": "아지트에 들어서자, 감정을 표현하는 라이트 쇼가 펼쳐집니다. 당신의 기분은 푹신한 소파처럼 편안한가요, 축제의 불꽃처럼 설레나요, 아니면 살짝 아련한가요? 시청자들이 투표하기 전에 당신의 느낌을 선택하세요.",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -30,57 +30,57 @@
         "nextSceneId": "s4"
       },
       {
-        "text": "설렘이나 슬픔이 있다",
+        "text": "설렘이나 향수가 있다",
         "nextSceneId": "s4"
       }
     ]
   },
   {
     "sceneId": "s3",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background2.png",
-    "text": "전체적인 분위기만 떠올렸다면, 그 속에서 찰칵 찍고 싶은 순간이 있나요? 인물이나 소품이 떠오르나요?",
+    "text": "대충 꾸며본 아지트에서 가장 먼저 눈에 띈 장면은 무엇인가요? 어딘가에서 빛나는 물건이나 낯익은 인물이 튀어나오나요?",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "특정 인물이나 소품이 눈에 띈다",
+        "text": "특정한 인물이나 소품이 눈에 띈다",
         "nextSceneId": "s4"
       },
       {
-        "text": "특별한 건 없다",
+        "text": "딱히 특별한 건 없다",
         "nextSceneId": "s4"
       }
     ]
   },
   {
     "sceneId": "s4",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background3.png",
-    "text": "이번엔 요즘 머리를 아프게 하는 고민을 떠올려보세요. 친구에게 얘기하듯 별명이나 밈으로 표현해볼까요?",
+    "text": "이제 개인 고민을 알려줄 시간입니다! SNS에서 밈처럼 떠도는 키워드로 당신의 고민을 표현한다면? 웃픈 해시태그를 붙여 이름을 지어 보세요.",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "구체적인 밈이나 이름으로 표현한다",
+        "text": "밈과 해시태그로 구체적으로 표현한다",
         "nextSceneId": "s5"
       },
       {
-        "text": "대충 느낌만 남긴다",
+        "text": "막연한 느낌만 남긴다",
         "nextSceneId": "s5"
       }
     ]
   },
   {
     "sceneId": "s5",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background4.png",
-    "text": "그 고민을 만화 캐릭터나 게임 몬스터로 만든다면 어떤 모습일까요? 색깔, 크기, 기술까지 자유롭게 상상해보세요.",
+    "text": "당신의 고민을 게임 속 캐릭터로 만든다면? 거대한 보스인지, 톡톡 튀는 미니언인지, 형체 없는 안개인지 상상해보세요. 디자인이 궁금해지는군요!",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "무겁고 어두운 보스 몬스터",
+        "text": "무겁고 어두운 보스 캐릭터",
         "nextSceneId": "s6"
       },
       {
@@ -88,56 +88,56 @@
         "nextSceneId": "s6"
       },
       {
-        "text": "형체 없는 안개 몬스터",
+        "text": "형체 없는 안개 캐릭터",
         "nextSceneId": "s6"
       }
     ]
   },
   {
     "sceneId": "s6",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "mountain.jpg",
-    "text": "이 몬스터가 당신의 일상에 끼치는 영향은? HP를 깎는지, 파티원을 방해하는지, 선택지를 클릭 못하게 하는지?",
+    "text": "이 캐릭터가 당신의 쇼에 어떤 영향을 미치나요? 체력을 깎아먹는 보스인지, 친구와의 협력을 방해하는 트릭스터인지, 선택지를 회색으로 만드는 마법을 쓰나요?",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "에너지/HP를 깎는다",
+        "text": "에너지/체력을 소모시킨다",
         "nextSceneId": "s7"
       },
       {
-        "text": "인간관계 퀘스트를 어렵게 한다",
+        "text": "인간관계 퀘스트를 방해한다",
         "nextSceneId": "s7"
       },
       {
-        "text": "선택지를 망설이게 한다",
+        "text": "선택을 망설이게 한다",
         "nextSceneId": "s7"
       }
     ]
   },
   {
     "sceneId": "s7",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background1.png",
-    "text": "이 영향을 받아들이며 플레이하고 있나요, 아니면 패치를 바랄 만큼 바꾸고 싶나요?",
+    "text": "이 영향을 받아들이며 플레이하고 있나요, 아니면 업데이트 패치를 꿈꾸고 있나요? 당신의 태도를 관객들에게 보여줄 시간입니다.",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "적응하며 플레이 중",
+        "text": "적응하며 플레이한다",
         "nextSceneId": "s8"
       },
       {
-        "text": "패치를 기다리며 변화 원함",
+        "text": "패치를 원하며 변화시키고 싶다",
         "nextSceneId": "s8"
       }
     ]
   },
   {
     "sceneId": "s8",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background2.png",
-    "text": "이번에는 삶에서 가장 레벨이 올라간 순간을 떠올려보세요. 자연 속 명장면인가요, 친구와의 합동 퀘스트인가요?",
+    "text": "다음 미션은 최고의 명장면을 회상하는 것! 자연 속에서 레벨업했던 순간인가요, 누군가와 함께하는 듀오 퀘스트였나요?",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -146,38 +146,38 @@
         "nextSceneId": "s9"
       },
       {
-        "text": "사람과 함께한 기억",
+        "text": "누군가와 함께한 기억",
         "nextSceneId": "s9"
       }
     ]
   },
   {
     "sceneId": "s9",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background3.png",
-    "text": "반대로, 게임오버 직전처럼 마음이 아팠던 순간은 언제였나요? 가족 퀘스트, 친구 퀘스트, 아니면 자신과의 싸움?",
+    "text": "이번에는 가장 가슴 아픈 드라마틱 씬을 떠올려보세요. 가족과 얽힌 에피소드인지, 친구와의 스토리인지, 자신과의 갈등인지요?",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "가족 관련 퀘스트",
+        "text": "가족 관련 에피소드",
         "nextSceneId": "s10"
       },
       {
-        "text": "친구나 사회적 퀘스트",
+        "text": "친구나 사회적 관계",
         "nextSceneId": "s10"
       },
       {
-        "text": "자신과의 싸움",
+        "text": "자신과의 갈등",
         "nextSceneId": "s10"
       }
     ]
   },
   {
     "sceneId": "s10",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background4.png",
-    "text": "두 순간을 함께 보면 어떤 게임 패턴이 보이나요? 칭찬에 경험치 UP, 혼자 솔플, 아니면 규칙 없는 자유 플레이?",
+    "text": "두 기억을 함께 보면 어떤 공통 패턴이 보이나요? 박수와 칭찬을 받을 때 경험치가 오르나요, 혼자서 헤쳐 나가길 좋아하나요, 아니면 그냥 그때그때?",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -186,7 +186,7 @@
         "nextSceneId": "s11"
       },
       {
-        "text": "독립형 솔로 플레이어",
+        "text": "독립적인 솔로 플레이어",
         "nextSceneId": "s11"
       },
       {
@@ -197,27 +197,27 @@
   },
   {
     "sceneId": "s11",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "mountain.jpg",
-    "text": "7살의 어린 자캐를 만난다면 어떤 말을 해주고 싶나요? 백업 세이브 파일처럼 조언을 줄 건가요, 아니면 그냥 크게 껴안을까요?",
+    "text": "7살의 작은 자캐를 만나는 이벤트! 이제 어른이 된 당신이 어린 당신에게 무엇을 속삭일지 전 세계 시청자가 궁금해합니다. 유머를 곁들여 말을 건넬까요, 아니면 진지한 조언을 건낼까요?",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "다정하고 웃긴 말을 건넨다",
+        "text": "재밌고 다정하게 말한다",
         "nextSceneId": "s12"
       },
       {
-        "text": "진지하고 단호한 조언을 한다",
+        "text": "단호하고 진지하게 조언한다",
         "nextSceneId": "s12"
       }
     ]
   },
   {
     "sceneId": "s12",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background1.png",
-    "text": "그 아이는 어떻게 반응할까요? 눈이 반짝이며 호기심을 보이나요, 겁먹은 토끼처럼 움츠리나요, 아니면 웃으며 안도할까요?",
+    "text": "작은 자캐는 어떻게 반응할까요? 눈이 반짝반짝 호기심을 보이나요, 살짝 겁을 먹나요, 아니면 마음껏 안도를 하나요?",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -237,9 +237,9 @@
   },
   {
     "sceneId": "s13",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background2.png",
-    "text": "지금까지 가장 큰 보스를 쓰러뜨린 순간을 떠올려보세요. 솔플이었나요, 팀플이었나요, 아직 깨지 못한 상태인가요?",
+    "text": "지금까지 당신이 만난 가장 강력한 보스를 생각해보세요. 혼자서 솔플로 잡았나요, 친구들과 팀플을 했나요, 아니면 아직 깨지 못했나요?",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -248,7 +248,7 @@
         "nextSceneId": "s14"
       },
       {
-        "text": "도움을 받아 클리어했다",
+        "text": "도움받아 클리어했다",
         "nextSceneId": "s14"
       },
       {
@@ -259,9 +259,9 @@
   },
   {
     "sceneId": "s14",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background3.png",
-    "text": "당신에게 버프나 힐을 주던 존재는 누구였나요? 가족 NPC, 친구 동료, 멘토, 혹은 아무도 없었나요?",
+    "text": "그때 당신에게 힐과 버프를 준 사람은 누구였나요? 가족 NPC였나요, 친구 동료였나요, 멘토 캐릭터였나요, 아니면 아무도 없었나요?",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -270,7 +270,7 @@
         "nextSceneId": "s15"
       },
       {
-        "text": "친구/동료",
+        "text": "친구나 동료",
         "nextSceneId": "s15"
       },
       {
@@ -285,9 +285,9 @@
   },
   {
     "sceneId": "s15",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background4.png",
-    "text": "당신의 스킬트리에 있는 소중한 가치 세 가지를 떠올려보세요: 정직, 창의성, 자비 등. 하나를 선택해 스킬 포인트를 더 찍어봅니다.",
+    "text": "이제 스킬트리에 포인트를 투자할 시간입니다. 당신에게 가장 소중한 가치 세 가지 중 하나를 골라서 레벨업해보세요: 정직, 창조성, 자비 중에서요!",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -307,53 +307,53 @@
   },
   {
     "sceneId": "s16",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "mountain.jpg",
-    "text": "이 스킬을 레벨업하면 삶의 플레이 스타일이 어떻게 변할까요? 불꽃처럼 행동력이 생기나요, 방패처럼 안정감을 주나요, 새 퀘스트를 열어주나요?",
+    "text": "선택한 가치가 레벨업하면 게임 플레이다역이 어떻게 변할까요? 행동력이 폭발하나요, 마음이 든든해지나요, 아니면 새로운 던전이 열리나요?",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "행동력 UP",
+        "text": "행동력이 폭발한다",
         "nextSceneId": "s17"
       },
       {
-        "text": "안정감",
+        "text": "안정감이 커진다",
         "nextSceneId": "s17"
       },
       {
-        "text": "새로운 도전",
+        "text": "새로운 도전을 부른다",
         "nextSceneId": "s17"
       }
     ]
   },
   {
     "sceneId": "s17",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background1.png",
-    "text": "당신의 삶을 하나의 맵으로 표현한다면? 험준한 산맥, 미로 같은 숲, 모래바람 부는 사막?",
+    "text": "당신의 인생을 하나의 게임 맵으로 만든다면? 험준한 산맥, 미로 같은 숲, 끝없는 사막 중 하나를 선택하고 탐험을 계속해봅니다.",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "험준한 산길",
+        "text": "험준한 산맥",
         "nextSceneId": "s18"
       },
       {
-        "text": "울창한 숲길",
+        "text": "울창한 숲",
         "nextSceneId": "s18"
       },
       {
-        "text": "끝없는 사막길",
+        "text": "끝없는 사막",
         "nextSceneId": "s18"
       }
     ]
   },
   {
     "sceneId": "s18",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background2.png",
-    "text": "그 맵에는 어떤 함정이나 장애물이 있나요? 가파른 절벽, 짙은 안개, 숨겨진 트랩? 하나를 클릭해 자세히 들여다보세요.",
+    "text": "그 맵 속에는 어떤 트랩이나 장애물이 숨어있나요? 가파른 절벽, 짙은 안개, 숨겨진 함정 중 하나를 클릭해 확대해보세요. 다음 에피소드가 기대됩니다!",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -373,31 +373,31 @@
   },
   {
     "sceneId": "s19",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background3.png",
-    "text": "아직 완료하지 못한 사이드퀘스트가 있나요? 미뤄둔 대화, 보내지 못한 편지, 하지 못한 포옹이 떠오르나요?",
+    "text": "사이드퀘스트 알림! 당신이 아직 완료하지 못한 중요한 미션은 무엇인가요? 회피해온 대화, 쓰지 못한 편지, 전하지 못한 포옹?",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "미뤄둔 대화를 떠올린다",
+        "text": "미뤄둔 대화",
         "nextSceneId": "s20"
       },
       {
-        "text": "쓰지 못한 편지를 떠올린다",
+        "text": "쓰지 못한 편지",
         "nextSceneId": "s20"
       },
       {
-        "text": "하지 못한 포옹을 떠올린다",
+        "text": "하지 못한 포옹",
         "nextSceneId": "s20"
       }
     ]
   },
   {
     "sceneId": "s20",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background4.png",
-    "text": "그 사람에게 편지를 쓴다면 어떤 모드를 선택할까요? 죄송합니다 모드, 감사합니다 모드, 아니면 내 경계를 보호하는 강력 모드?",
+    "text": "그 사람에게 어떤 톤으로 메시지를 보내고 싶나요? 죄송합니다 모드, 감사 모드, 아니면 내 경계를 지키는 단호 모드? 선택에 따라 반응이 달라질 수 있어요!",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -417,9 +417,9 @@
   },
   {
     "sceneId": "s21",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "mountain.jpg",
-    "text": "지금 inventory에서 버리고 싶은 감정은 무엇인가요? 공포, 분노, 완벽주의 중 하나를 드롭해보세요.",
+    "text": "이제 인벤토리를 정리할 시간! 내려놓고 싶은 감정은 무엇인가요? 두려움, 분노, 완벽주의 중 하나를 도전적으로 드롭하세요.",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -439,9 +439,9 @@
   },
   {
     "sceneId": "s22",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background1.png",
-    "text": "반대로 강화하고 싶은 속성은? 인내심, 용기, 장난기 중 하나를 강화해보세요.",
+    "text": "반대로 이제 강화하고 싶은 속성을 고를 시간입니다! 인내심, 용기, 장난기 중 어떤 스탯에 포인트를 찍을까요?",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -461,9 +461,9 @@
   },
   {
     "sceneId": "s23",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background2.png",
-    "text": "아직 수행하지 못한 퀘스트가 있나요? 창작 프로젝트, 여행, 커리어 전환, 내적 성장 중 무엇이 떠오르나요?",
+    "text": "아직 시작하지 못한 꿈의 퀘스트가 있나요? 창작 프로젝트, 세계 여행, 커리어 전환, 내적 성장 중 하나를 선택해보세요. 어떤 신나는 챌린지가 기다릴까요?",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -487,62 +487,62 @@
   },
   {
     "sceneId": "s24",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background3.png",
-    "text": "왜 아직 그 퀘스트를 시작하지 못했나요? 실패에 대한 두려움, 시간 부족, 타인의 기대, 아니면 방향이 잡히지 않았기 때문인가요?",
+    "text": "그 퀘스트를 아직 시작하지 못한 이유는 무엇인가요? 실패에 대한 두려움, 시간과 자원 부족, 타인의 기대, 혹은 아직 방향을 모르겠나요?",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "실패에 대한 두려움",
+        "text": "실패가 두렵다",
         "nextSceneId": "s25"
       },
       {
-        "text": "시간 부족",
+        "text": "시간/자원이 부족하다",
         "nextSceneId": "s25"
       },
       {
-        "text": "타인의 기대",
+        "text": "타인의 기대와 시선",
         "nextSceneId": "s25"
       },
       {
-        "text": "방향 없음",
+        "text": "방향이 불명확하다",
         "nextSceneId": "s25"
       }
     ]
   },
   {
     "sceneId": "s25",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background4.png",
-    "text": "그럼 지금 할 수 있는 작은 액션은 무엇인가요? 자료 조사, 관련자와 대화, 하루에 10분씩 연습?",
+    "text": "이제 작은 발걸음을 내딛어볼 차례입니다! 자료 조사, 사람과의 대화, 하루 10분의 실습 중 하나를 골라 실천해보세요. 장면 전환에 배경음이 깔립니다.",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "자료 조사",
+        "text": "자료 조사를 시작한다",
         "nextSceneId": "s26"
       },
       {
-        "text": "연락하기",
+        "text": "관련된 사람에게 연락한다",
         "nextSceneId": "s26"
       },
       {
-        "text": "작은 실천",
+        "text": "작은 실습을 해본다",
         "nextSceneId": "s26"
       }
     ]
   },
   {
     "sceneId": "s26",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "mountain.jpg",
-    "text": "마지막 스테이지에 도달했을 때 어떤 느낌으로 크레딧을 보고 싶나요? 만족, 자부심, 후회 없는 평온?",
+    "text": "이제 결승전이 눈앞에! 당신이 스테이지의 크레딧을 볼 때 느끼고 싶은 감정은 무엇인가요? 만족과 평안, 자긍심, 후회 없는 평온 중에서 고르세요.",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "만족",
+        "text": "만족과 평안",
         "nextSceneId": "s27"
       },
       {
@@ -550,16 +550,16 @@
         "nextSceneId": "s27"
       },
       {
-        "text": "후회 없음",
+        "text": "후회 없는 평온",
         "nextSceneId": "s27"
       }
     ]
   },
   {
     "sceneId": "s27",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background1.png",
-    "text": "엔딩에 남기고 싶은 보상은 무엇인가요? 당신만의 이야기, 노래, 정원, 혹은 누군가를 위한 안식처?",
+    "text": "엔딩 크레딧 후, 당신이 남기고 싶은 선물은 무엇인가요? 한 편의 이야기, 한 곡의 노래, 비밀의 정원, 누군가를 위한 안식처 중 선택해주세요. 이는 상업적 상품이 될 수도 있겠죠!",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -583,9 +583,9 @@
   },
   {
     "sceneId": "s28",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background2.png",
-    "text": "이제 편지를 고를 차례입니다! 용서의 편지, 감사의 편지, 다짐의 편지 중에서 어떤 스토리 라인을 타볼까요?",
+    "text": "이제 마지막 선택의 시간! 당신은 세 가지 편지 중 어떤 에피소드를 이어서 보고 싶나요? 용서의 편지, 감사의 편지, 다짐의 편지 중에서 다음 회차를 선택하세요!",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -605,9 +605,9 @@
   },
   {
     "sceneId": "s29",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background3.png",
-    "text": "용서의 편지를 선택했네요. 누구에게 마음의 화살표를 돌리고 싶나요? 자기 자신, 다른 사람, 혹은 모두?",
+    "text": "용서 편지 에피소드! 누구를 향해 마음의 화살표를 돌리고 싶나요? 자신인가요, 누군가 다른 사람인가요, 아니면 모두에게? 관객들이 긴장하고 있어요!",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -620,16 +620,16 @@
         "nextSceneId": "s30"
       },
       {
-        "text": "모두",
+        "text": "모두에게",
         "nextSceneId": "s30"
       }
     ]
   },
   {
     "sceneId": "s30",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background4.png",
-    "text": "용서를 상상할 때 몸과 마음에 어떤 효과음이 들리나요? 숨이 가벼워지는 느낌, 눈물 이모지, 머릿속이 클리어해지는 사운드?",
+    "text": "용서를 상상할 때 어떤 변화가 느껴지나요? 호흡이 가벼워지고, 눈물이 또르르, 아니면 머릿속이 깨끗해지는 것 같은 느낌? 한 가지를 골라 다음 장면으로 넘어갑니다.",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -649,14 +649,14 @@
   },
   {
     "sceneId": "s31",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "mountain.jpg",
-    "text": "용서가 완료되면 어떤 새로운 레벨이나 업그레이드가 열릴까요? 관계 스킬 업, 창의력 버프, 마음의 호수?",
+    "text": "용서가 이루어지면, 당신의 스킬트리에 어떤 새로운 업그레이드가 열릴까요? 관계의 깊이, 창의력 버프, 혹은 마음 속 평화로운 호수? 고를 때가 왔습니다!",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "관계 업그레이드",
+        "text": "관계 깊이 강화",
         "nextSceneId": "s32"
       },
       {
@@ -664,47 +664,47 @@
         "nextSceneId": "s32"
       },
       {
-        "text": "내면의 평화",
+        "text": "내면 평화",
         "nextSceneId": "s32"
       }
     ]
   },
   {
     "sceneId": "s32",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background1.png",
-    "text": "용서의 엔딩! 당신은 몬스터를 쓰다듬고 다음 챕터로 나아갑니다. 앞으로도 이 스킬을 기억하세요.",
+    "text": "클리어! 용서의 편지를 통해 당신은 새로운 길을 열었습니다. 앞으로 이 스킬을 계속 활용해보세요. 다음 시즌을 기대하세요!",
     "start": false,
     "end": true,
     "choiceRequests": []
   },
   {
     "sceneId": "s33",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background3.png",
-    "text": "감사의 편지를 선택했어요. 감사하고 싶은 대상은 누구인가요? 친구, 장소, 경험?",
+    "text": "감사 편지 에피소드! 감사하고 싶은 대상은 누구인가요? 한 명의 사람, 한 장소, 소중한 경험? 어디에 감사를 쏘아볼까요?",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "사람",
+        "text": "특정한 사람",
         "nextSceneId": "s34"
       },
       {
-        "text": "장소",
+        "text": "특별한 장소",
         "nextSceneId": "s34"
       },
       {
-        "text": "경험",
+        "text": "소중한 경험",
         "nextSceneId": "s34"
       }
     ]
   },
   {
     "sceneId": "s34",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background4.png",
-    "text": "감사를 느끼면 시야가 어떻게 변하나요? 뿌리가 튼튼해진 느낌, 아이디어 폭발, 세상이 넓어지는 겸손함?",
+    "text": "감사를 느끼면 세상이 어떻게 보이나요? 땅에 뿌리내린 안정감, 번뜩이는 아이디어, 혹은 넓은 세상에서의 겸손함? 선택에 따라 다음의 영상이 달라집니다.",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -724,45 +724,45 @@
   },
   {
     "sceneId": "s35",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "mountain.jpg",
-    "text": "이 감사를 어떻게 표현하고 싶나요? 전화 한 통, 손편지, 작은 선행으로 서프라이즈?",
+    "text": "이 감사를 표현하는 방식은? 직접 연락해서 마음을 전할지, 손편지를 써서 서프라이즈 할지, 작은 선행으로 아낌없이 나눌지 결정하세요.",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "전화로 전한다",
+        "text": "직접 연락한다",
         "nextSceneId": "s36"
       },
       {
-        "text": "손편지를 쓴다",
+        "text": "손편지를 보낸다",
         "nextSceneId": "s36"
       },
       {
-        "text": "작은 선행",
+        "text": "작은 선행으로 표현",
         "nextSceneId": "s36"
       }
     ]
   },
   {
     "sceneId": "s36",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background1.png",
-    "text": "감사의 엔딩! 당신의 마음속 게이지가 채워졌습니다. 매일 감사 버프를 써보세요.",
+    "text": "클리어! 감사의 편지를 통해 당신의 마음 게이지가 채워졌습니다. 시즌이 끝났지만 일상에서 계속 감사를 실천해보세요. 스포일러: 후속편도 준비 중!",
     "start": false,
     "end": true,
     "choiceRequests": []
   },
   {
     "sceneId": "s37",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background3.png",
-    "text": "다짐의 편지를 선택했네요! 앞으로 어떤 방향을 설정하고 싶나요? 새 직업, 내적 성장, 관계 레벨업?",
+    "text": "다짐 편지 에피소드! 앞으로 어떤 방향으로 모험을 떠나고 싶나요? 새로운 직업, 내면 성장, 관계 레벨업 중 선택하세요. 팬들이 기대하고 있어요!",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "새 직업",
+        "text": "새로운 직업",
         "nextSceneId": "s38"
       },
       {
@@ -777,9 +777,9 @@
   },
   {
     "sceneId": "s38",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background4.png",
-    "text": "실천을 위한 첫 걸음은 무엇일까요? 목표 정하기, 새로운 공부 시작, 멘토에게 SOS 보내기?",
+    "text": "이 다짐을 실천하기 위한 첫 걸음은 무엇일까요? 구체적인 목표를 세울지, 새로운 공부를 시작할지, 멘토에게 SOS를 요청할지! 선택에 따라 챌린지가 달라집니다.",
     "start": false,
     "end": false,
     "choiceRequests": [
@@ -788,25 +788,25 @@
         "nextSceneId": "s39"
       },
       {
-        "text": "새 공부",
+        "text": "새로운 공부 시작",
         "nextSceneId": "s39"
       },
       {
-        "text": "도움 요청",
+        "text": "멘토에게 도움 요청",
         "nextSceneId": "s39"
       }
     ]
   },
   {
     "sceneId": "s39",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "mountain.jpg",
-    "text": "당신에게 필요한 서포트팀은 누구인가요? 가족·친구, 전문가, 비슷한 꿈의 커뮤니티?",
+    "text": "퀘스트의 여정에는 어떤 서포트 팀이 필요할까요? 가족과 친구, 전문가나 멘토, 비슷한 꿈을 가진 커뮤니티 중 하나를 선택하세요. 팀 구성이 관건입니다!",
     "start": false,
     "end": false,
     "choiceRequests": [
       {
-        "text": "가족·친구",
+        "text": "가족/친구",
         "nextSceneId": "s40"
       },
       {
@@ -821,9 +821,9 @@
   },
   {
     "sceneId": "s40",
-    "speaker": "상담자",
+    "speaker": "사회자",
     "backgroundImage": "loading-background1.png",
-    "text": "다짐의 엔딩! 미래로 향한 퀘스트가 시작되었습니다. 주기적으로 계획을 업데이트하며 나아가세요.",
+    "text": "클리어! 다짐 편지를 통해 새로운 퀘스트가 시작되었습니다. 앞으로 일정과 계획을 업데이트하며 즐겁게 모험을 이어가세요. 다음 시즌에서 만나요!",
     "start": false,
     "end": true,
     "choiceRequests": []
