@@ -21,7 +21,7 @@ export default function ChoiceList({ scene }: Props) {
     }, [scene, choose]);
 
     return (
-        <div className="p-4 space-y-2 bg-white/80 backdrop-blur-sm max-h-[40vh] overflow-y-auto">
+        <div className="w-full p-4 space-y-2 bg-white/80 backdrop-blur-sm max-h-[40vh] overflow-y-auto rounded-md">
             {scene.choiceRequests.map((c, i) => (
                 <button
                     key={i}
