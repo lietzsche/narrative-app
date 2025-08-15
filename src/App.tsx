@@ -3,6 +3,7 @@ import LandingPage from './pages/LandingPage';
 import PlayPage from './pages/PlayPage';
 import AdminPage from './pages/AdminPage';
 
+// github page: https://lietzsche.github.io/narrative-app/
 function App() {
     return (
         <Routes>
